@@ -44,20 +44,20 @@ Bitwise Operators:
 
 let x = 7;
 let y = 5;
-console.log(x + y);
+console.log(x + y);     // Outputs: 12
 
 let x = 8;
 let y = 2;
-console.log(x * y);
+console.log(x * y);     // Outputs: 16
 
 * Assignment Operator
 
 let x = 15;
-console.log(x);
+console.log(x);   // Outputs: 15
 
 let x = 12;
     x += 30;
-console.log(x);  // Outputs: 
+console.log(x);  // Outputs: 42
 
 * Comparison Operator
 
@@ -79,4 +79,15 @@ if((year % 400 == 0) || ((year % 100 != 0) && (year % 4 == 0))){
     console.log(year + " is not a leap year.");  // Outputs: 2018 is not a leap year.
 }
 
+* Bitwise Operators
 
+
+
+
+
+
+    Question 4
+
+for (let i = 1; i < 20; i += 7) {
+    console.log(i);       
+}                        // Outputs: 1 , 8 and 15
